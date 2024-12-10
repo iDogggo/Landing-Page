@@ -1,0 +1,15 @@
+.PageTop {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.TopLinks {
+    display: flex;
+    margin-left: 600px;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+  }
