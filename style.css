@@ -1,11 +1,22 @@
+body {
+    margin: 0; 
+    padding: 0; 
+    background-color: #1F2937; 
+    color: white;
+}
+
 a { 
     text-decoration: none;
-  }
+}
 
 button {
-    background-color: blue;
-    color: white;
+    background-color: ligh;
     font-weight: bold;
+    border: none;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 12px;
+    padding: 8px;
 }
 
 .PageTop {
@@ -26,9 +37,11 @@ button {
     margin: 120px;
     margin-left: 200px;
     padding: 0px;
+    font-weight: 400;
+    font-size: large;
 }
 
 .SignUp {
     display: flex;
     justify-content: flex-start;
-}
+} 
