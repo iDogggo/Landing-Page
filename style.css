@@ -1,12 +1,11 @@
 body {
     margin: 0; 
     padding: 0; 
-    background-color: #1F2937; 
-    color: white;
 }
 
 a { 
     text-decoration: none;
+    color: gray;
 }
 
 button {
@@ -22,11 +21,17 @@ button {
 .PageTop {
     display: flex;
     align-items: center;
-    margin-left: 200px;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    background-color: #1F2937;
+    margin: 0;
 }
 
 .TopLinks {
     display: flex;
+    justify-content: center;
     margin-left: 600px;
     gap: 20px;
 }
@@ -34,11 +39,16 @@ button {
 .MainContainer {
     display: flex;
     flex-direction: column;
-    margin: 120px;
-    margin-left: 200px;
-    padding: 0px;
+    align-items: flex-start;
+    margin: 0;
+    padding-left: 230px;
+    padding-bottom: 50px;
     font-weight: 400;
     font-size: large;
+    background-color: #1F2937; /* Same dark background color */
+    color: white;
+    width: 100%;
+
 }
 
 .SignUp {
