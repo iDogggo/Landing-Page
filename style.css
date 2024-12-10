@@ -1,3 +1,13 @@
+a { 
+    text-decoration: none;
+  }
+
+button {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
 .PageTop {
     display: flex;
     align-items: center;
@@ -10,6 +20,15 @@
     gap: 20px;
 }
 
-a {
-    text-decoration: none;
-  }
+.MainContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 120px;
+    margin-left: 200px;
+    padding: 0px;
+}
+
+.SignUp {
+    display: flex;
+    justify-content: flex-start;
+}
