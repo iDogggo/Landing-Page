@@ -6,6 +6,8 @@ body {
 a { 
     text-decoration: none;
     color: gray;
+    font-weight: 500;
+    font-size: large;
 }
 
 button {
@@ -27,6 +29,7 @@ button {
     width: 100%;
     background-color: #1F2937;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .TopLinks {
@@ -34,6 +37,7 @@ button {
     justify-content: center;
     margin-left: 600px;
     gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .MainContainer {
@@ -41,13 +45,16 @@ button {
     flex-direction: column;
     align-items: flex-start;
     margin: 0;
-    padding-left: 230px;
+    padding-left: 170px;
     padding-bottom: 50px;
+    padding-top: 80px;
     font-weight: 400;
     font-size: large;
     background-color: #1F2937; /* Same dark background color */
     color: white;
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
 
 }
 
