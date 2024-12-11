@@ -61,6 +61,14 @@ button {
     font-size: larger;
 }
 
+.MainImage {
+    display: flex;
+    width: auto;
+    height: 300px;
+    margin-left: 680px;
+    margin-top: -200px;
+}
+
 .SignUp {
     display: flex;
     justify-content: flex-start;
@@ -82,7 +90,10 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center; 
+    justify-content: space-evenly; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 600;
 }
 
 
@@ -99,7 +110,7 @@ button {
 .InfoContainer img {
     max-width: 100%;
     height: auto; 
-    width: 150px;
+    width: 200px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
