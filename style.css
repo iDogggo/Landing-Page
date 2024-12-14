@@ -16,9 +16,9 @@ a {
 
 button {
     font-weight: bold;
-    border: none;
     background-color: #3882f6;
     color: white;
+    border: 2px;
     border-radius: 12px;
     padding: 8px;
 }
@@ -34,6 +34,7 @@ button {
     background-color: #1F2937;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 
 .TopLinks {
     display: flex;
@@ -61,6 +62,7 @@ button {
     font-size: larger;
 }
 
+
 .MainImage {
     display: flex;
     width: auto;
@@ -68,6 +70,7 @@ button {
     margin-left: 680px;
     margin-top: -200px;
 }
+
 
 .SignUp {
     display: flex;
@@ -94,6 +97,7 @@ button {
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     font-weight: 600;
+    padding-bottom: 20px;
 }
 
 
@@ -116,4 +120,63 @@ button {
 }
 
 
+.quotecontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #E5E7EB;
+}
 
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    padding-left: 100px;
+}
+
+.quoter {
+    margin-top: 200px;
+    margin-right: 100px;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signupcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    margin: 150px;
+    padding: 50px;
+    color: white;
+    background-color: #3882f6;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.signuptext {
+    display: flex;
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+}
+
+.signupbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: 2px solid white;
+    border-radius: 12px;
+    margin: 0;
+    position: absolute; 
+    right: 50px; 
+    bottom: 50px;
+}
